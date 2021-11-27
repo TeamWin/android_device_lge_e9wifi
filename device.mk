@@ -11,7 +11,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/dt.img:dt.img \
     $(LOCAL_PATH)/fstab.e9wifi:root/fstab.e9wifi
 
-$(call inherit-product, build/target/product/full.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
 PRODUCT_NAME := e9wifi
 PRODUCT_BRAND := LGE
